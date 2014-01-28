@@ -16,8 +16,20 @@
 
 - (void)viewDidLoad
 {
+
+    UILabel *a =[[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 100.0)];
+
+    a.text = @"test";
+
+    a.backgroundColor = [UIColor grayColor];
+
+    a.textColor = [UIColor redColor];
+
+    // add to viewController's view
+    [self.view addSubview:a];
+
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
