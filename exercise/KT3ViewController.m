@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
 
-    UILabel *a =[[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 100.0)];
+    UILabel *a =[[UILabel alloc] initWithFrame:CGRectMake(0.0, 20.0, 320.0, 20.0)];
 
     a.text = @"test";
 
@@ -27,6 +27,14 @@
 
     // add to viewController's view
     [self.view addSubview:a];
+
+    UIWebView *wv = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 40.0, 320, 300)];
+
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com/"]];
+
+    [wv loadRequest:req];
+
+    [self.view addSubview:wv];
 
     [super viewDidLoad];
 
