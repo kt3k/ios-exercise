@@ -7,9 +7,12 @@
 //
 
 #import "KT3ViewController.h"
+#import "KT3WebViewDelegate.h"
 #import <AFNetworking/AFNetworking.h>
 
 @interface KT3ViewController ()
+
+@property id <UIWebViewDelegate> delegate;
 
 @end
 
@@ -18,22 +21,15 @@
 - (void)viewDidLoad
 {
 
-    UILabel *a =[[UILabel alloc] initWithFrame:CGRectMake(0.0, 20.0, 320.0, 20.0)];
-
-    a.text = @"test";
-
-    a.backgroundColor = [UIColor grayColor];
-
-    a.textColor = [UIColor redColor];
-
-    // add to viewController's view
-    [self.view addSubview:a];
-
     UIWebView *wv = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 40.0, 320, 300)];
 
-    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com/"]];
+    id <UIWebViewDelegate> delegate = [[KT3WebViewDelegate alloc] init];
 
-    [wv loadRequest:req];
+    self.delegate = delegate;
+
+    wv.delegate = self.delegate;
+
+    [wv loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.example.com/"]]];
 
     [self.view addSubview:wv];
 
