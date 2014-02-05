@@ -24,6 +24,7 @@
 		199C6B2D1893AFAE000E631C /* exerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C6B2C1893AFAE000E631C /* exerciseTests.m */; };
 		19C68FB2189FEC1700DCE4FC /* KT3WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */; };
 		19C68FB518A1F4A000DCE4FC /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 19C68FB418A1F4A000DCE4FC /* index.html */; };
+		19C68FB718A1FB5F00DCE4FC /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 19C68FB618A1FB5F00DCE4FC /* test.html */; };
 		A9081054835149869B9A6D4E /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3WebViewDelegate.h; sourceTree = "<group>"; };
 		19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegate.m; sourceTree = "<group>"; };
 		19C68FB418A1F4A000DCE4FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		19C68FB618A1FB5F00DCE4FC /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.xcconfig"; path = "Pods/Pods-exercise.xcconfig"; sourceTree = "<group>"; };
 		ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 		19C68FB318A1F3C700DCE4FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				19C68FB618A1FB5F00DCE4FC /* test.html */,
 				19C68FB418A1F4A000DCE4FC /* index.html */,
 			);
 			path = Resources;
@@ -258,6 +261,7 @@
 			files = (
 				199C6B151893AFAE000E631C /* Main_iPad.storyboard in Resources */,
 				199C6B1A1893AFAE000E631C /* Images.xcassets in Resources */,
+				19C68FB718A1FB5F00DCE4FC /* test.html in Resources */,
 				199C6B121893AFAE000E631C /* Main_iPhone.storyboard in Resources */,
 				199C6B091893AFAE000E631C /* InfoPlist.strings in Resources */,
 				19C68FB518A1F4A000DCE4FC /* index.html in Resources */,
