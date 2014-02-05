@@ -29,7 +29,7 @@
 
     wv.delegate = self.delegate;
 
-    [wv loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.example.com/"]]];
+    [wv loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]]]];
 
     [self.view addSubview:wv];
 

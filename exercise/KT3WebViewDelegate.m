@@ -10,7 +10,8 @@
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     NSLog(@"KT3WebViewDelegate");
-    NSLog(@"%@", [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]);
+    NSLog(@"%@", [[NSBundle mainBundle] bundlePath]);
+    NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]]);
     return YES;
 };
 
