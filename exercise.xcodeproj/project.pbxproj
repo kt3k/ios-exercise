@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19113F8C18A3499000AD7ADF /* www in Resources */ = {isa = PBXBuildFile; fileRef = 19113F8B18A3499000AD7ADF /* www */; };
 		199C6AFF1893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B011893AFAE000E631C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B001893AFAE000E631C /* CoreGraphics.framework */; };
 		199C6B031893AFAE000E631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B021893AFAE000E631C /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19113F8B18A3499000AD7ADF /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		199C6AFB1893AFAD000E631C /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C6AFE1893AFAE000E631C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		199C6B001893AFAE000E631C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		199C6B041893AFAE000E631C /* exercise */ = {
 			isa = PBXGroup;
 			children = (
+				19113F8B18A3499000AD7ADF /* www */,
 				199C6B0D1893AFAE000E631C /* KT3AppDelegate.h */,
 				199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */,
 				199C6B101893AFAE000E631C /* Main_iPhone.storyboard */,
@@ -248,6 +251,7 @@
 				199C6B151893AFAE000E631C /* Main_iPad.storyboard in Resources */,
 				199C6B1A1893AFAE000E631C /* Images.xcassets in Resources */,
 				199C6B121893AFAE000E631C /* Main_iPhone.storyboard in Resources */,
+				19113F8C18A3499000AD7ADF /* www in Resources */,
 				199C6B091893AFAE000E631C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
