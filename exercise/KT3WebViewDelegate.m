@@ -10,8 +10,10 @@
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     NSLog(@"KT3WebViewDelegate");
-    NSLog(@"%@", [[NSBundle mainBundle] bundlePath]);
-    NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]]);
+    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"html" inDirectory:@"/www"]);
+    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"js" inDirectory:@"/www"]);
+    NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"/www"]]);
+    //NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"js"]]);
     return YES;
 };
 
