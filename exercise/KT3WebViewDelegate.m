@@ -11,7 +11,7 @@
 {
     NSLog(@"KT3WebViewDelegate");
     NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"html" inDirectory:@"/www"]);
-    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"js" inDirectory:@"/www"]);
+    NSLog(@"%@", [[NSBundle mainBundle] pathsForResourcesOfType:@"js" inDirectory:@"/www/js"]);
     NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"/www"]]);
     //NSLog(@"%@", [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"js"]]);
     return YES;

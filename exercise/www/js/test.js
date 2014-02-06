@@ -1,1 +1,1 @@
-alert('alert in js/test.js');
+/*alert('alert in js/test.js');*/
