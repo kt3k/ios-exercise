@@ -32,7 +32,7 @@
 
 - (void)testDelegateStart
 {
-    XCTAssertTrue([[[KT3WebViewDelegate alloc] init] webView:nil shouldStartLoadWithRequest:nil navigationType:nil]);
+    XCTAssertTrue([[[KT3WebViewDelegate alloc] init] webView:nil shouldStartLoadWithRequest:nil navigationType:UIWebViewNavigationTypeBackForward]);
 }
 
 @end
