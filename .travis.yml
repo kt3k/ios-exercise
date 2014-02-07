@@ -1,0 +1,5 @@
+language: objective-c
+
+# workspace and scheme settings
+xcode_workspace: exercise.xcworkspace
+xcode_scheme: exercise
