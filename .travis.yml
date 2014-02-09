@@ -1,7 +1,7 @@
 language: objective-c
 
 # specify ruby version for cocoapods
-rvm: 2.0.0
+rvm: 1.9.3
 
 # workspace and scheme settings
 xcode_workspace: exercise.xcworkspace
