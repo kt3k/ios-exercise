@@ -1,5 +1,5 @@
 [
     "-workspace", "exercise.xcworkspace",
     "-scheme", "exercise",
-    "-sdk", "iphonesimulator"
+    "-sdk", "iphonesimulator7.0"
 ]
