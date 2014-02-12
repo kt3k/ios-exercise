@@ -3,8 +3,8 @@ language: objective-c
 # specify ruby version for cocoapods
 rvm: 1.9.3
 
-# workspace and scheme settings
-xcode_workspace: exercise.xcworkspace
-xcode_scheme: exercise
-xcode_sdk:
-- iphonesimulator7.0
+script:
+- make cov
+
+after_success:
+- xctool -showBuildSettings
