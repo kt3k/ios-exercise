@@ -7,5 +7,5 @@ script:
 - make cov
 
 after_success:
-- sudo pip install cpp-coveralls
+- sudo easy_install cpp-coveralls
 - make coveralls
