@@ -1,10 +1,10 @@
 .PHONY: test clean
 
 test:
-	xctool test -freshSimulator
+	xctool test
 
 cov:
-	xctool test -freshSimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+	xctool test GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 
 clean:
 	xctool clean
