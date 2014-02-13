@@ -15,7 +15,7 @@ kill:
 coveralls:
 	mkdir gcov
 	cp `$(MAKE) echo-obj-dir`/* gcov/
-	coveralls
+	coveralls -e Pods -e exerciseTests
 	rm -rf gcov
 
 echo-obj-dir:
