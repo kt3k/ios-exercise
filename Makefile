@@ -13,4 +13,10 @@ kill:
 	osascript -e 'tell app "iPhone Simulator" to quit'
 
 coveralls:
-	cd ` xctool -showBuildSettings | awk '$$1=="OBJECT_FILE_DIR_normal"{print $$3}' `/i386 ; coveralls
+	mkdir gcov
+	cp `$(MAKE) echo-obj-dir`/* gcov/
+	cd gcov ; coveralls
+	rm -rf gcov
+
+echo-obj-dir:
+	@echo ` xctool -showBuildSettings | awk '$$1=="OBJECT_FILE_DIR_normal"{print $$3}' `/i386
