@@ -15,7 +15,7 @@ kill:
 coveralls:
 	mkdir gcov
 	cp `$(MAKE) echo-obj-dir`/* gcov/
-	cd gcov ; coveralls
+	coveralls
 	rm -rf gcov
 
 echo-obj-dir:
