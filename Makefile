@@ -19,4 +19,4 @@ coveralls:
 	rm -rf gcov
 
 echo-obj-dir:
-	@echo ` xctool -showBuildSettings | awk '$$1=="OBJECT_FILE_DIR_normal"{print $$3}' `/i386
+	@echo ` xctool -showBuildSettings | awk '/OBJECT_FILE_DIR_normal/{x=$$3}/CURRENT_ARCH/{y=$$3}END{print x"/"y}' `
