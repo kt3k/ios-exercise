@@ -23,8 +23,8 @@
 		199C6B221893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B231893AFAE000E631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B021893AFAE000E631C /* UIKit.framework */; };
 		199C6B2B1893AFAE000E631C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B291893AFAE000E631C /* InfoPlist.strings */; };
-		199C6B2D1893AFAE000E631C /* exerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C6B2C1893AFAE000E631C /* exerciseTests.m */; };
 		19C68FB2189FEC1700DCE4FC /* KT3WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */; };
+		19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */; };
 		A9081054835149869B9A6D4E /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -61,9 +61,9 @@
 		199C6B201893AFAE000E631C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		199C6B281893AFAE000E631C /* exerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exerciseTests-Info.plist"; sourceTree = "<group>"; };
 		199C6B2A1893AFAE000E631C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		199C6B2C1893AFAE000E631C /* exerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exerciseTests.m; sourceTree = "<group>"; };
 		19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3WebViewDelegate.h; sourceTree = "<group>"; };
 		19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegate.m; sourceTree = "<group>"; };
+		19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegateTests.m; sourceTree = "<group>"; };
 		9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.xcconfig"; path = "Pods/Pods-exercise.xcconfig"; sourceTree = "<group>"; };
 		ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,10 +157,10 @@
 		199C6B261893AFAE000E631C /* exerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				199C6B2C1893AFAE000E631C /* exerciseTests.m */,
 				199C6B271893AFAE000E631C /* Supporting Files */,
 				196B8BE918AA1BE9005AF26D /* KT3TestObserver.h */,
 				196B8BEA18AA1BE9005AF26D /* KT3TestObserver.m */,
+				19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */,
 			);
 			path = exerciseTests;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				196B8BEB18AA1BE9005AF26D /* KT3TestObserver.m in Sources */,
-				199C6B2D1893AFAE000E631C /* exerciseTests.m in Sources */,
+				19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
