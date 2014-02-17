@@ -27,4 +27,9 @@
     [[[KT3AppDelegate alloc] init] applicationDidBecomeActive:nil];
 }
 
+- (void)testApplicationWillTerminate
+{
+    [[[KT3AppDelegate alloc] init] applicationWillTerminate:nil];
+}
+
 @end
