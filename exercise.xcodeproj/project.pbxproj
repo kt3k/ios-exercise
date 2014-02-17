@@ -25,6 +25,7 @@
 		199C6B2B1893AFAE000E631C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B291893AFAE000E631C /* InfoPlist.strings */; };
 		19C68FB2189FEC1700DCE4FC /* KT3WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */; };
 		19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */; };
+		19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */; };
 		A9081054835149869B9A6D4E /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3WebViewDelegate.h; sourceTree = "<group>"; };
 		19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegate.m; sourceTree = "<group>"; };
 		19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegateTests.m; sourceTree = "<group>"; };
+		19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3AppDelegateTests.m; sourceTree = "<group>"; };
 		9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.xcconfig"; path = "Pods/Pods-exercise.xcconfig"; sourceTree = "<group>"; };
 		ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,6 +163,7 @@
 				196B8BE918AA1BE9005AF26D /* KT3TestObserver.h */,
 				196B8BEA18AA1BE9005AF26D /* KT3TestObserver.m */,
 				19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */,
+				19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */,
 			);
 			path = exerciseTests;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			files = (
 				196B8BEB18AA1BE9005AF26D /* KT3TestObserver.m in Sources */,
 				19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */,
+				19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
