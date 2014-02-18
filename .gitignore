@@ -6,3 +6,6 @@ xcuserdata
 
 # gcov dir
 gcov/
+
+# doc
+doc/
