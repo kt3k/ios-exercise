@@ -22,4 +22,4 @@ echo-obj-dir:
 	@echo ` xctool -showBuildSettings | awk '/OBJECT_FILE_DIR_normal/{x=$$3}/CURRENT_ARCH/{y=$$3}END{print x"/"y}' `
 
 doc:
-	appledoc --project-name 'exercise' --project-company 'exercise' --company-id 'org.kt3k' --output doc exercise/
+	appledoc --project-name 'exercise' --project-company 'kt3k.org' --company-id 'org.kt3k' --output doc  --index-desc README.md exercise
