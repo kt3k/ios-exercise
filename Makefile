@@ -26,3 +26,10 @@ doc:
 
 docset:
 	appledoc --project-name 'exercise' --project-company 'kt3k.org' --company-id 'org.kt3k' --output doc --index-desc README.md exercise
+
+cov-html:
+	mkdir gcov
+	cp `$(MAKE) echo-obj-dir`/* gcov/
+	touch cov ; rm -rf cov ; mkdir cov
+	gcovr -r . --html --html-details -o cov/index.html
+	rm -rf gcov
