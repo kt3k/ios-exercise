@@ -27,12 +27,5 @@
 {
 };
 
-#ifdef DEBUG
-+ (void)load
-{
-    [[NSUserDefaults standardUserDefaults] setValue:@"XCTestLog,KT3TestObserver" forKey:@"XCTestObserverClass"];
-}
-#endif
-
 
 @end

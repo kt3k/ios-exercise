@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		19113F8C18A3499000AD7ADF /* www in Resources */ = {isa = PBXBuildFile; fileRef = 19113F8B18A3499000AD7ADF /* www */; };
-		196B8BEB18AA1BE9005AF26D /* KT3TestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 196B8BEA18AA1BE9005AF26D /* KT3TestObserver.m */; };
 		199C6AFF1893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B011893AFAE000E631C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B001893AFAE000E631C /* CoreGraphics.framework */; };
 		199C6B031893AFAE000E631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B021893AFAE000E631C /* UIKit.framework */; };
@@ -42,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		19113F8B18A3499000AD7ADF /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		196B8BE918AA1BE9005AF26D /* KT3TestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3TestObserver.h; sourceTree = "<group>"; };
-		196B8BEA18AA1BE9005AF26D /* KT3TestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3TestObserver.m; sourceTree = "<group>"; };
 		199C6AFB1893AFAD000E631C /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C6AFE1893AFAE000E631C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		199C6B001893AFAE000E631C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,8 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				199C6B271893AFAE000E631C /* Supporting Files */,
-				196B8BE918AA1BE9005AF26D /* KT3TestObserver.h */,
-				196B8BEA18AA1BE9005AF26D /* KT3TestObserver.m */,
 				19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */,
 				19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */,
 				19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */,
@@ -326,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196B8BEB18AA1BE9005AF26D /* KT3TestObserver.m in Sources */,
 				19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */,
 				19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */,
 				19F5744E18B1CD3300E37321 /* KT3ViewControllerTests.m in Sources */,
