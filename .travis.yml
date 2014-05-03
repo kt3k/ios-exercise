@@ -1,7 +1,7 @@
 language: objective-c
 
-# specify ruby version for cocoapods
-rvm: 1.9.3
+before_install:
+- gem install cocoapods
 
 script:
 - make cov
