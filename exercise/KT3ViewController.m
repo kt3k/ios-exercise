@@ -1,6 +1,5 @@
 #import "KT3ViewController.h"
 #import "KT3WebViewDelegate.h"
-#import <AFNetworking/AFNetworking.h>
 
 @interface KT3ViewController ()
 
