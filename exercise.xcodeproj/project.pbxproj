@@ -15,8 +15,6 @@
 		199C6B091893AFAE000E631C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B071893AFAE000E631C /* InfoPlist.strings */; };
 		199C6B0B1893AFAE000E631C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C6B0A1893AFAE000E631C /* main.m */; };
 		199C6B0F1893AFAE000E631C /* KT3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */; };
-		199C6B121893AFAE000E631C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B101893AFAE000E631C /* Main_iPhone.storyboard */; };
-		199C6B151893AFAE000E631C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B131893AFAE000E631C /* Main_iPad.storyboard */; };
 		199C6B181893AFAE000E631C /* KT3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199C6B171893AFAE000E631C /* KT3ViewController.m */; };
 		199C6B1A1893AFAE000E631C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B191893AFAE000E631C /* Images.xcassets */; };
 		199C6B211893AFAE000E631C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B201893AFAE000E631C /* XCTest.framework */; };
@@ -51,8 +49,6 @@
 		199C6B0C1893AFAE000E631C /* exercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exercise-Prefix.pch"; sourceTree = "<group>"; };
 		199C6B0D1893AFAE000E631C /* KT3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KT3AppDelegate.h; sourceTree = "<group>"; };
 		199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KT3AppDelegate.m; sourceTree = "<group>"; };
-		199C6B111893AFAE000E631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		199C6B141893AFAE000E631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		199C6B161893AFAE000E631C /* KT3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KT3ViewController.h; sourceTree = "<group>"; };
 		199C6B171893AFAE000E631C /* KT3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KT3ViewController.m; sourceTree = "<group>"; };
 		199C6B191893AFAE000E631C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -132,8 +128,6 @@
 				19113F8B18A3499000AD7ADF /* www */,
 				199C6B0D1893AFAE000E631C /* KT3AppDelegate.h */,
 				199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */,
-				199C6B101893AFAE000E631C /* Main_iPhone.storyboard */,
-				199C6B131893AFAE000E631C /* Main_iPad.storyboard */,
 				199C6B161893AFAE000E631C /* KT3ViewController.h */,
 				199C6B171893AFAE000E631C /* KT3ViewController.m */,
 				199C6B191893AFAE000E631C /* Images.xcassets */,
@@ -254,9 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				199C6B151893AFAE000E631C /* Main_iPad.storyboard in Resources */,
 				199C6B1A1893AFAE000E631C /* Images.xcassets in Resources */,
-				199C6B121893AFAE000E631C /* Main_iPhone.storyboard in Resources */,
 				19113F8C18A3499000AD7ADF /* www in Resources */,
 				199C6B091893AFAE000E631C /* InfoPlist.strings in Resources */,
 			);
@@ -344,22 +336,6 @@
 				199C6B081893AFAE000E631C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		199C6B101893AFAE000E631C /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				199C6B111893AFAE000E631C /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		199C6B131893AFAE000E631C /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				199C6B141893AFAE000E631C /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		199C6B291893AFAE000E631C /* InfoPlist.strings */ = {
