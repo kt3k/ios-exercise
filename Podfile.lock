@@ -19,21 +19,21 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - ObjectiveSugar (0.9)
-  - Straw (0.2.0)
+  - Straw (0.3.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - ObjectiveSugar (~> 0.5)
-  - Straw (from `https://github.com/strawjs/straw-ios.git`, tag `v0.2.0`)
+  - Straw (from `https://github.com/strawjs/straw-ios.git`, tag `v0.3.0`)
 
 EXTERNAL SOURCES:
   Straw:
     :git: https://github.com/strawjs/straw-ios.git
-    :tag: v0.2.0
+    :tag: v0.3.0
 
 SPEC CHECKSUMS:
   AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
   ObjectiveSugar: 8aa74f81fb08a78a13bc691e8ad7285b042238d2
-  Straw: 95569f0d1f2334fadca8da9f931e4eeee72c527c
+  Straw: fecf95d05dd3f3290d36b73621f320b14ad0f557
 
 COCOAPODS: 0.32.1
