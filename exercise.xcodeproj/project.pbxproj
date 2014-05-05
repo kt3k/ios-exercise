@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182C67EB4C3C45BDA81773D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BC1BC0F0241B895217D11 /* libPods.a */; };
 		19113F8C18A3499000AD7ADF /* www in Resources */ = {isa = PBXBuildFile; fileRef = 19113F8B18A3499000AD7ADF /* www */; };
 		199C6AFF1893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B011893AFAE000E631C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B001893AFAE000E631C /* CoreGraphics.framework */; };
@@ -26,7 +27,6 @@
 		19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */; };
 		19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */; };
 		19F5744E18B1CD3300E37321 /* KT3ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */; };
-		A9081054835149869B9A6D4E /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,8 @@
 		19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegateTests.m; sourceTree = "<group>"; };
 		19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3AppDelegateTests.m; sourceTree = "<group>"; };
 		19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3ViewControllerTests.m; sourceTree = "<group>"; };
-		9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.xcconfig"; path = "Pods/Pods-exercise.xcconfig"; sourceTree = "<group>"; };
-		ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3996786232674B4CB1CA9E13 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8F7BC1BC0F0241B895217D11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				199C6B011893AFAE000E631C /* CoreGraphics.framework in Frameworks */,
 				199C6B031893AFAE000E631C /* UIKit.framework in Frameworks */,
 				199C6AFF1893AFAE000E631C /* Foundation.framework in Frameworks */,
-				A9081054835149869B9A6D4E /* libPods-exercise.a in Frameworks */,
+				182C67EB4C3C45BDA81773D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				199C6B261893AFAE000E631C /* exerciseTests */,
 				199C6AFD1893AFAD000E631C /* Frameworks */,
 				199C6AFC1893AFAD000E631C /* Products */,
-				9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */,
+				3996786232674B4CB1CA9E13 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +121,7 @@
 				199C6B001893AFAE000E631C /* CoreGraphics.framework */,
 				199C6B021893AFAE000E631C /* UIKit.framework */,
 				199C6B201893AFAE000E631C /* XCTest.framework */,
-				ED12ECFCB4E245EDB2591E62 /* libPods-exercise.a */,
+				8F7BC1BC0F0241B895217D11 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-exercise-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0154C7955F54791863E8A89 /* Check Pods Manifest.lock */ = {
@@ -375,7 +375,7 @@
 /* Begin XCBuildConfiguration section */
 		199C6B2E1893AFAE000E631C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */;
+			baseConfigurationReference = 3996786232674B4CB1CA9E13 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -415,7 +415,7 @@
 		};
 		199C6B2F1893AFAE000E631C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A826714090C4EF4A85168FC /* Pods-exercise.xcconfig */;
+			baseConfigurationReference = 3996786232674B4CB1CA9E13 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
