@@ -125,15 +125,15 @@
 		199C6B041893AFAE000E631C /* exercise */ = {
 			isa = PBXGroup;
 			children = (
-				19113F8B18A3499000AD7ADF /* www */,
 				199C6B0D1893AFAE000E631C /* KT3AppDelegate.h */,
 				199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */,
 				199C6B161893AFAE000E631C /* KT3ViewController.h */,
 				199C6B171893AFAE000E631C /* KT3ViewController.m */,
-				199C6B191893AFAE000E631C /* Images.xcassets */,
-				199C6B051893AFAE000E631C /* Supporting Files */,
 				19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */,
 				19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */,
+				19113F8B18A3499000AD7ADF /* www */,
+				199C6B191893AFAE000E631C /* Images.xcassets */,
+				199C6B051893AFAE000E631C /* Supporting Files */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -152,10 +152,10 @@
 		199C6B261893AFAE000E631C /* exerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				199C6B271893AFAE000E631C /* Supporting Files */,
 				19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */,
 				19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */,
 				19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */,
+				199C6B271893AFAE000E631C /* Supporting Files */,
 			);
 			path = exerciseTests;
 			sourceTree = "<group>";
