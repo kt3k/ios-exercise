@@ -2,7 +2,7 @@
 
 @interface KT3ViewController ()
 
-@property id <UIWebViewDelegate> delegate;
+@property (nonatomic, retain) id<UIWebViewDelegate> delegate;
 
 @end
 
@@ -11,20 +11,24 @@
 - (void)viewDidLoad
 {
 
-    UIWebView *wv = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 40.0, 320, 300)];
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
 
-    STWWebViewDelegate *delegate = [[STWWebViewDelegate alloc] initWithWebView:wv];
+    webView.autoresizesSubviews = YES;
+    webView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+
+    STWWebViewDelegate *delegate = [[STWWebViewDelegate alloc] initWithWebView:webView];
 
     self.delegate = delegate;
 
     [[STWLogger sharedLogger] setLevel:kSTWLoggerLevelVerbose];
 
-    [wv loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
 
-    [self.view addSubview:wv];
+    [self.view addSubview:webView];
 
     [super viewDidLoad];
 
 }
+
 
 @end
