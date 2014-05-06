@@ -21,8 +21,6 @@
 		199C6B221893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B231893AFAE000E631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B021893AFAE000E631C /* UIKit.framework */; };
 		199C6B2B1893AFAE000E631C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199C6B291893AFAE000E631C /* InfoPlist.strings */; };
-		19C68FB2189FEC1700DCE4FC /* KT3WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */; };
-		19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */; };
 		19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */; };
 		19F5744E18B1CD3300E37321 /* KT3ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */; };
 /* End PBXBuildFile section */
@@ -56,9 +54,6 @@
 		199C6B201893AFAE000E631C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		199C6B281893AFAE000E631C /* exerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exerciseTests-Info.plist"; sourceTree = "<group>"; };
 		199C6B2A1893AFAE000E631C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3WebViewDelegate.h; sourceTree = "<group>"; };
-		19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegate.m; sourceTree = "<group>"; };
-		19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3WebViewDelegateTests.m; sourceTree = "<group>"; };
 		19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3AppDelegateTests.m; sourceTree = "<group>"; };
 		19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3ViewControllerTests.m; sourceTree = "<group>"; };
 		3996786232674B4CB1CA9E13 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -129,8 +124,6 @@
 				199C6B0E1893AFAE000E631C /* KT3AppDelegate.m */,
 				199C6B161893AFAE000E631C /* KT3ViewController.h */,
 				199C6B171893AFAE000E631C /* KT3ViewController.m */,
-				19C68FB0189FEC1700DCE4FC /* KT3WebViewDelegate.h */,
-				19C68FB1189FEC1700DCE4FC /* KT3WebViewDelegate.m */,
 				19113F8B18A3499000AD7ADF /* www */,
 				199C6B191893AFAE000E631C /* Images.xcassets */,
 				199C6B051893AFAE000E631C /* Supporting Files */,
@@ -152,7 +145,6 @@
 		199C6B261893AFAE000E631C /* exerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				19F5744718B1C1C400E37321 /* KT3WebViewDelegateTests.m */,
 				19F5744A18B1C51200E37321 /* KT3AppDelegateTests.m */,
 				19F5744D18B1CD3300E37321 /* KT3ViewControllerTests.m */,
 				199C6B271893AFAE000E631C /* Supporting Files */,
@@ -303,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				199C6B0B1893AFAE000E631C /* main.m in Sources */,
-				19C68FB2189FEC1700DCE4FC /* KT3WebViewDelegate.m in Sources */,
 				199C6B0F1893AFAE000E631C /* KT3AppDelegate.m in Sources */,
 				199C6B181893AFAE000E631C /* KT3ViewController.m in Sources */,
 			);
@@ -313,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F5744818B1C1C400E37321 /* KT3WebViewDelegateTests.m in Sources */,
 				19F5744B18B1C51200E37321 /* KT3AppDelegateTests.m in Sources */,
 				19F5744E18B1CD3300E37321 /* KT3ViewControllerTests.m in Sources */,
 			);
