@@ -1,5 +1,4 @@
 #import "KT3ViewController.h"
-#import "KT3WebViewDelegate.h"
 
 @interface KT3ViewController ()
 
@@ -14,11 +13,11 @@
 
     UIWebView *wv = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 40.0, 320, 300)];
 
-    id <UIWebViewDelegate> delegate = [[KT3WebViewDelegate alloc] init];
+    STWWebViewDelegate *delegate = [[STWWebViewDelegate alloc] initWithWebView:wv];
 
     self.delegate = delegate;
 
-    wv.delegate = self.delegate;
+    [[STWLogger sharedLogger] setLevel:kSTWLoggerLevelVerbose];
 
     [wv loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
 
