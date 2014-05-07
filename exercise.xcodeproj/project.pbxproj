@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182C67EB4C3C45BDA81773D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7BC1BC0F0241B895217D11 /* libPods.a */; };
 		19113F8C18A3499000AD7ADF /* www in Resources */ = {isa = PBXBuildFile; fileRef = 19113F8B18A3499000AD7ADF /* www */; };
+		193006701919A7E400E819D8 /* KT3StrawHttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1930066F1919A7E400E819D8 /* KT3StrawHttpService.m */; };
 		199C6AFF1893AFAE000E631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6AFE1893AFAE000E631C /* Foundation.framework */; };
 		199C6B011893AFAE000E631C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B001893AFAE000E631C /* CoreGraphics.framework */; };
 		199C6B031893AFAE000E631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6B021893AFAE000E631C /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		19113F8B18A3499000AD7ADF /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		1930066E1919A7E400E819D8 /* KT3StrawHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KT3StrawHttpService.h; sourceTree = "<group>"; };
+		1930066F1919A7E400E819D8 /* KT3StrawHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KT3StrawHttpService.m; sourceTree = "<group>"; };
 		199C6AFB1893AFAD000E631C /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C6AFE1893AFAE000E631C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		199C6B001893AFAE000E631C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				19113F8B18A3499000AD7ADF /* www */,
 				199C6B191893AFAE000E631C /* Images.xcassets */,
 				199C6B051893AFAE000E631C /* Supporting Files */,
+				1930066E1919A7E400E819D8 /* KT3StrawHttpService.h */,
+				1930066F1919A7E400E819D8 /* KT3StrawHttpService.m */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193006701919A7E400E819D8 /* KT3StrawHttpService.m in Sources */,
 				199C6B0B1893AFAE000E631C /* main.m in Sources */,
 				199C6B0F1893AFAE000E631C /* KT3AppDelegate.m in Sources */,
 				199C6B181893AFAE000E631C /* KT3ViewController.m in Sources */,

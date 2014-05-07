@@ -2,29 +2,48 @@
 
 @interface KT3ViewController ()
 
-@property (nonatomic, retain) id<UIWebViewDelegate> delegate;
+@property (nonatomic, retain) STWWebViewDelegate *delegate;
+@property (nonatomic, retain) UIWebView *webView;
 
 @end
 
 @implementation KT3ViewController
 
+
+- (id)init
+{
+    self = [super init];
+
+    if (self) {
+        UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
+
+        webView.autoresizesSubviews = YES;
+        webView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+
+        self.webView = webView;
+
+        self.delegate = [[STWWebViewDelegate alloc] initWithWebView:webView withViewController:self];
+
+        [[STWLogger sharedLogger] setLevel:kSTWLoggerLevelVerbose];
+
+    }
+
+    return self;
+}
+
+
+- (void)loadService:(Class<STWService>)serviceClass
+{
+    [self.delegate loadService:serviceClass];
+}
+
+
 - (void)viewDidLoad
 {
 
-    UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
 
-    webView.autoresizesSubviews = YES;
-    webView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
-
-    STWWebViewDelegate *delegate = [[STWWebViewDelegate alloc] initWithWebView:webView];
-
-    self.delegate = delegate;
-
-    [[STWLogger sharedLogger] setLevel:kSTWLoggerLevelVerbose];
-
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
-
-    [self.view addSubview:webView];
+    [self.view addSubview:self.webView];
 
     [super viewDidLoad];
 
