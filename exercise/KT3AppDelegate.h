@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import "KT3StrawHttpService.h"
 
 /**
  exercise app delegate

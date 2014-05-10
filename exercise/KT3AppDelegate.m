@@ -7,11 +7,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-    // alloc and init a window
+    // initialize window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    // alloc and init viewController
-    self.viewController = [[KT3ViewController alloc] init];
+    // initialize viewController
+    KT3ViewController *viewController = [[KT3ViewController alloc] init];
+
+    [viewController loadService:[KT3StrawHttpService class]];
+
+    // set to viewController property
+    self.viewController = viewController;
 
     // set it to rootViewController
     self.window.rootViewController = self.viewController;
