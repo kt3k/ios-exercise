@@ -5,4 +5,7 @@ Pods
 xcuserdata
 
 # gcov dir
-gcov/
+gcov
+
+# coverage html
+.cov

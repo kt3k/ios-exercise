@@ -30,6 +30,6 @@ docset:
 cov-html:
 	mkdir gcov
 	cp `$(MAKE) echo-obj-dir`/* gcov/
-	touch cov ; rm -rf cov ; mkdir cov
-	gcovr -r . --html --html-details -o cov/index.html
+	touch .cov ; rm -rf .cov ; mkdir .cov
+	gcovr -r . --html --html-details -o .cov/index.html
 	rm -rf gcov
