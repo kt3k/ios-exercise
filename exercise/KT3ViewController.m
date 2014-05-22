@@ -15,7 +15,7 @@
     self = [super init];
 
     if (self) {
-        UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
+        UIWebView *webView = [[UIWebView alloc] init];
 
         webView.autoresizesSubviews = YES;
         webView.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
@@ -40,6 +40,7 @@
 
 - (void)viewDidLoad
 {
+    [self.webView setFrame:self.view.frame];
 
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"www/index" ofType:@"html"]]]];
 
