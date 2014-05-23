@@ -4,6 +4,11 @@ set :source, 'www-source'
 
 set :build_dir, 'exercise/www'
 
+# bower directory
+ready do
+  sprockets.append_path File.join root, ".bower"
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
