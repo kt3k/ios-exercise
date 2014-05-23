@@ -15,3 +15,6 @@ gcov
 
 # Ignore Sass' cache
 /.sass-cache
+
+# bower component
+.bower

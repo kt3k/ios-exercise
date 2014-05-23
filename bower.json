@@ -1,0 +1,12 @@
+{
+  "name": "exercise",
+  "version": "0.0.0",
+  "authors": [
+    "Yoshiya Hinosawa <stibium121@gmail.com>"
+  ],
+  "description": "ios straw app exercise",
+  "private": true,
+  "dependencies": {
+    "straw-ios.js": "https://github.com/strawjs/straw-ios.js.git#~0.3.0"
+  }
+}
