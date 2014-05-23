@@ -18,3 +18,6 @@ gcov
 
 # bower component
 .bower
+
+# build dir
+exercise/www
