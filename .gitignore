@@ -9,3 +9,12 @@ gcov
 
 # coverage html
 .cov
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the build directory
+/build
+
+# Ignore Sass' cache
+/.sass-cache
