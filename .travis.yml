@@ -4,6 +4,8 @@ before_install:
 - brew update
 - brew upgrade xctool
 - gem install cocoapods
+- bundle install
+- bundle exec middleman build
 
 script:
 - make cov
