@@ -25,7 +25,6 @@
         self.delegate = [[STWWebViewDelegate alloc] initWithWebView:webView withViewController:self];
 
         [[STWLogger sharedLogger] setLevel:kSTWLoggerLevelVerbose];
-
     }
 
     return self;

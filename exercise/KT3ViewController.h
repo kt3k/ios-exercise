@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
 #import <AFNetworking/AFNetworking.h>
 #import <Straw/Straw.h>
-#import "KT3StrawHttpService.h"
 
 
 /**

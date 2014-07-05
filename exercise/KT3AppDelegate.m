@@ -1,5 +1,4 @@
 #import "KT3AppDelegate.h"
-#import "KT3ViewController.h"
 
 
 @implementation KT3AppDelegate
@@ -13,7 +12,7 @@
     // initialize viewController
     KT3ViewController *viewController = [[KT3ViewController alloc] init];
 
-    [viewController loadService:[KT3StrawHttpService class]];
+    [viewController loadService:[STWServiceHttp class]];
 
     // set to viewController property
     self.viewController = viewController;
