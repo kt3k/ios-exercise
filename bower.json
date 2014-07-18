@@ -7,7 +7,7 @@
   "description": "ios straw app exercise",
   "private": true,
   "dependencies": {
-    "straw-ios-js": "https://github.com/strawjs/straw-ios.js.git#~0.3.4",
-    "straw-ios-service-http.js": "git@github.com:strawjs/straw-ios-service-http.js.git#~0.1.2"
+    "straw-ios": "https://github.com/strawjs/straw-ios.js.git#~0.3.4",
+    "straw-ios-service-http": "git@github.com:strawjs/straw-ios-service-http.js.git#~0.1.2"
   }
 }
