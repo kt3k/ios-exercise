@@ -2,7 +2,7 @@ language: objective-c
 
 before_install:
 - brew update
-- brew upgrade xctool
+#- brew upgrade xctool
 - gem install cocoapods
 - npm install -g bower
 - bower install
