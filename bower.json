@@ -8,6 +8,6 @@
   "private": true,
   "dependencies": {
     "straw-ios": "https://github.com/strawjs/straw-ios.js.git#~0.3.4",
-    "straw-ios-service-http": "git@github.com:strawjs/straw-ios-service-http.js.git#~0.1.2"
+    "straw-ios-service-http": "https://github.com/strawjs/straw-ios-service-http.js.git#~0.1.2"
   }
 }
