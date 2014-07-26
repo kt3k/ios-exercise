@@ -11,3 +11,18 @@
 - :o2: cocoapods (ruby gem)
 - :man: middleman (ruby gem)
 - :baby_chick: bower (npm module)
+
+# Preparation steps
+
+1. create App using Xcode
+2. Make the scheme shared
+3. Introduce cocoapods
+4. Introduce xctool
+5. Introduce travis just in case
+6. introduce middleman
+  - middleman init .
+  - tweak configs
+7. introduce straw-native
+  - load middleman build result into native webview
+8. introduce bower
+9. introduce straw js interfaces
